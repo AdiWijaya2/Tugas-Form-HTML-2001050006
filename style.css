@@ -1,0 +1,60 @@
+.body{
+    background-color: rgb(32, 94, 228);
+    background-image: url("rubik.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.container{
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(54, 106, 252);
+    margin: auto;
+    padding: 20px 80px 30px 75px;
+    background-image: linear-gradient(rgb(137, 205, 228), rgb(215, 197, 230));
+    border-radius: 14px;
+}
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(26, 91, 230);
+    background-image: linear-gradient(to right, rgb(158, 158, 245),white);
+    border-radius: 3px;
+}
+.table td{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+.table textarea{
+    border-radius: 5px;
+}
+.foto{
+    cursor: pointer;
+}
+.submit{
+    background-color: rgb(16, 130, 224);
+    padding: 4px 12px;
+    font-weight: bold;   
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px
+}
+.reset{
+    background-color: rgba(255, 251, 5, 0.959);
+    padding: 4px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 49px;
+}
+.peringatan{
+    background-color: rgb(255, 0, 0);
+    padding: 4px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}

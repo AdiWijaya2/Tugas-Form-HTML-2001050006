@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+   <div class="container">
+    <h2 class="h2">Form Biodata</h2>
+    <form>
+        <table class="table">
+            <tr>
+               <td>Nim</td>
+               <td>:</td>
+               <td><input type="text" name="nim" size="24" maxlength="10"></td>
+            </tr>
+            <tr>
+               <td>Nama</td>
+               <td>:</td>
+               <td><input type="text" name="nama" size="24" maxlength="100"></td>
+            </tr>
+            <tr>
+               <td>Jenis Kelamin</td>
+               <td>:</td>
+               <td><input type="radio" value="Pria">Pria
+                <input type="radio" value="Wanita">Wanita</td>
+            </tr>
+            <tr>
+               <td>Jurusan</td>
+               <td>:</td>
+               <td><select name="jurusan">
+                <option value="">Pilih...</option>
+                <option value="S1 Manajemen">S1 Manajemen</option>
+                <option value="S1 Ilmu Komputer">S1 Ilmu Komputer</option>
+                <option value="S1 Akuntansi">S1 Akuntansi</option>
+                <option value="S1 Desain Visual Komunikasi">S1 Desain Visual Komunikasi</option>
+                <option value="S1 Teknologi Informasi">S1 Teknologi Informasi</option>
+                <option value="D3 Rekayasa Pereangkat Lunak">D3 Rekayasa Perangkat Lunak </option>
+                <option value="D3 Sistem Informasi">D3 Sistem Informasi</option>
+            </tr>
+             <tr>
+                <td>Hobby</td>
+                <td>:</td>
+                <td><input type="checkbox" name="hobby" value="Komputer">Komputer
+                    <input type="checkbox" name="hobby" value="Musik">Musik
+                    <input type="checkbox" name="hobby" value="Olahraga">Olahraga
+                    <input type="checkbox" name="hobby" value="Traveling">Traveling</td>
+             </tr>
+             <tr>
+                <td>Catatan</td>
+                <td>:</td>
+                <td><textarea name="catatan" cols="40" rows="5"></textarea>
+             </tr>
+             <tr>
+                <td>Foto</td>
+                <td>:</td>
+                <td><input type="file" name="foto"></td>
+             </tr>
+             <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="text" name="email" size="24" maxlength="100"></td>
+             </tr>
+             <tr>
+                <td>Sandi Login</td>
+                <td>:</td>
+                <td><input type="password" name="sl" size="24" maxlength="100"></td>
+             </tr>
+             <tr>
+                <td>Ulangi Sandi Login</td>
+                <td>:</td>
+                <td><input type="password" name="usl" size="24" maxlength="100"></td>
+             </tr>
+             <tr>
+                 <td></td>
+                 <td></td>
+                 <td><input class="submit" type="submit" name="Submit" value="Simpan"> 
+                     <input class="reset" type="reset" name="Batal" value="Batal">
+                     <input class="peringatan" type="button" name="Peringatan" value="Peringatan">
+                 </td>
+             </tr>
+
+            </table>
+        </table>
+    </form>
+    </div>
+    
+</body>
+</html>
