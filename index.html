@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Form Biodata</h2>
+    <form>
+        <table>
+            <tr>
+               <td>NIM</td>
+               <td style="padding-left: 23px; padding-right: 20px;">:</td>
+               <td><input type="text" name="NIM" size="11" maxlength="10"></td>
+            </tr>
+            <tr>
+               <td>NAMA</td>
+               <td style="padding-left: 23px; padding-right: 20px;">:</td>
+               <td><input type="text" name="NAMA" size="24" maxlength="100"></td>
+            </tr>
+            <tr>
+               <td>JENIS KELAMIN</td>
+               <td style="padding-left: 23px; padding-right: 20px;">:</td>
+               <td><input type="radio" value="Pria">Pria
+                <input type="radio" value="Wanita">Wanita</td>
+            </tr>
+            <tr>
+               <td>JURUSAN</td>
+               <td style="padding-left: 23px; padding-right: 20px;">:</td>
+               <td><select name="JURUSAN">
+                <option value="">Pilih...</option>
+                <option value="S1 Manajemen">S1 Manajemen</option>
+                <option value="S1 Ilmu Komputer">S1 Ilmu Komputer</option>
+                <option value="S1 Akuntansi">S1 Akuntansi</option>
+                <option value="S1 Desain Visual Komunikasi">S1 Desain Visual Komunikasi</option>
+                <option value="S1 Teknologi Informasi">S1 Teknologi Informasi</option>
+                <option value="D3 Rekayasa Pereangkat Lunak">D3 Rekayasa Perangkat Lunak </option>
+                <option value="D3 Sistem Informasi">D3 Sistem Informasi</option>
+            </tr>
+             <tr>
+                <td>HOBBY</td>
+                <td style="padding-left: 23px; padding-right: 20px;">:</td>
+                <td><input type="checkbox" name="HOBBY" value="Komputer">Komputer
+                    <input type="checkbox" name="HOBBY" value="Musik">Musik
+                    <input type="checkbox" name="HOBBY" value="Olahraga">Olahraga
+                    <input type="checkbox" name="HOBBY" value="Traveling">Traveling</td>
+             </tr>
+             <tr>
+                <td>CATATAN</td>
+                <td style="padding-left: 23px; padding-right: 20px;">:</td>
+                <td><textarea name="CATATAN" cols="40" rows="5"></textarea>
+             </tr>
+             <tr>
+                <td>FOTO</td>
+                <td style="padding-left: 23px; padding-right: 20px;">:</td>
+                <td><input type="file" name="FOTO"></td>
+             </tr>
+             <tr>
+                <td>EMAIL</td>
+                <td style="padding-left: 23px; padding-right: 20px;">:</td>
+                <td><input type="text" name="EMAIL" size="24" maxlength="100"></td>
+             </tr>
+             <tr>
+                <td>SANDI LOGIN</td>
+                <td style="padding-left: 23px; padding-right: 20px;">:</td>
+                <td><input type="password" name="SANDI LOGIN" size="24" maxlength="100"></td>
+             </tr>
+             <tr>
+                <td>ULANGI SANDI LOGIN</td>
+                <td style="padding-left: 23px; padding-right: 20px;">:</td>
+                <td><input type="password" name="ULANGI SANDI LOGIN" size="24" maxlength="100"></td>
+             </tr>
+             <tr>
+                 <td></td>
+                 <td></td>
+                 <td><input type="submit" name="Submit" value="Simpan"> 
+                     <input type="reset" name="Batal" value="Batal">
+                     <input type="button" name="Peringatan" value="Peringatan">
+                 </td>
+             </tr>
+
+            
+
+            </table>
+        </table>
+    </form>
+    
+</body>
+</html>
